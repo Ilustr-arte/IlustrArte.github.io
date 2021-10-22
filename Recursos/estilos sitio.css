@@ -1,0 +1,209 @@
+@charset "utf-8";
+body{font-family: Ming LiU Ex tB;
+	background-image: url("../Img/steal4.png");
+	background-size: cover;
+	background-attachment: fixed;
+	
+	opacity: 80%;
+	
+	
+}
+
+#boton1{
+	margin: 10px;
+	font-family: Ming LiU Ex tB;
+	font-size: 17px;
+	
+	
+}
+#boton2{
+	margin: 10px;
+	font-family: Ming LiU Ex tB;
+	font-size: 17px;
+	
+}
+
+
+#menu1{
+	background-color: black;
+	align-self: center;
+	
+}
+
+#pgalery{
+	font-family: Ming LiU Ex tB;
+	color: white;
+	background-color: black;
+}
+
+#tgalery{
+	font-family: Ming LiU Ex tB;
+	color: white;
+	background-color: black;
+}
+
+#qgalery{
+	font-family: Ming LiU Ex tB;
+	color: white;
+	background-color: black;
+}
+
+#sgalery{
+	font-family: Ming LiU Ex tB;
+	
+}
+
+#cgalery{
+	font-family: Ming LiU Ex tB;
+	
+}
+#menu {
+    color: black;
+    font-family: Ming LiU Ex tB;
+    font-size: 18px;
+    width: 100%;
+	background-color: black;
+	position: fixed;
+	
+	
+	
+}
+
+#navbarDropdown0{text-align: center;
+	color: white;
+	
+}
+
+#navbarDropdown2{
+	text-align: center;
+	color: white;
+	background-color: black;
+		
+}
+
+#navbarDropdown2:hover{
+	color: black;
+	background-color: white;
+}
+
+#navbarDropdown0:hover{
+	color: black;
+	background-color: white;
+}
+#navbarDropdown1:hover{
+	color: black;
+	background-color: white;
+}
+
+#listamenu{
+	text-align: center;
+}
+
+
+
+.slider{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	 
+		
+} 
+#navbarDropdown1{text-align:center;
+	color: white;
+} 
+.slider ul{
+	display: flex;
+    padding: 0;
+	width: 150%;
+	
+	animation: cambio 20s infinite;
+	
+	
+	
+}
+
+.slider li{
+	list-style: none;
+	width: 400%;
+}
+
+.slider img{
+	width: 100%;
+	
+	
+	}
+
+@keyframes cambio{
+	0% {margin-left: 0%;}
+	15% {margin-left: -25%}
+	30% {margin-left: 0%;}
+	45% {margin-left: -50%;}
+	60% {margin-left: -25%}
+	75% {margin-left: -50%}
+	90% {margin-left: -50%}
+	100% {margin-left: 0%}
+	
+}
+
+#nuestroser {
+	font-family: Ming LiU Ex tB;
+	font-size: 17px;
+	color: white;
+	background-color: black;
+	padding: 30px;
+	text-align: justify;
+	
+}
+
+#nuestraco {
+	font-family: Ming LiU Ex tB;
+	font-size: 18px;
+	color: black;
+	background-color: white;
+	padding: 30px;
+	text-align: justify;
+}
+
+#cuadro4{
+	background-color: black;
+	padding-bottom: 30px;
+}
+
+#mapa, #formulario{
+	
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+	color: plum;
+	border-radius: 5px;
+}
+
+#formulario input{
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#formulario textarea{ 
+border-radius: 5px;
+}
+
+#escribenos{
+	align: center;
+	font-family: Ming LiU Ex tB;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	
+}
+
+#formulario #botonenvio{
+	background-color: white;
+	color: #7D7D7D;
+}
+
+#formulario #botonenvio:hover{
+	background-color: dimgrey;
+	color: black;
+}
+
